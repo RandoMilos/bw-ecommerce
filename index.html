@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js" defer></script>
+    <title>BLAKKWAVE</title>
+</head>
+<body>
+    <header>
+        <i class="header__link"><img src="img/menuIcon.svg" alt="Icono menu"></img></i>
+        <img id="logoImage" src="img/blakkWaveIcon.png" alt="Logo Blakk Wave"></img>
+        <i class="header__link cartIC"><div><div class="textContainer"><p class="itemCounter">0</p></div><img src="img/shopping-cart.svg" alt="Icono Carrito"></div></i>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2 class="banner__text">Productos Nuevos</h2>
+            <p class="banner__text-lowOpacity">¡Conoce nuestra nueva variedad en lanzamientos!</p>
+        </section>
+
+        <section class="menu hide">
+            <div class="menu__btnContainer">
+                <h2 class="menu__title">Menú</h2>
+                <button class="closebtn"><img src="img/x.svg" alt="boton cerrar"></button>
+            </div>
+            <article>
+                <h3>Inicio</h3>
+                <h3>Contacto</h3>
+                <h3>Pedidos</h3>
+                <h3>Cuenta</h3>
+            </article>
+        </section>
+
+        <section class="products">
+            <article class="products__item">
+                <img class="products__image" src="img/ballonerismVynil.webp" alt="Vinilo Balloonerism">
+                <h3 class="products__itemTitle">Balloonerism Deluxe Version - Mac Miller</h3>
+                <p class="products__price">$67.36 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+
+            <article class="products__item">
+                <img class="products__image" src="img/chromakopiaVinyl.png" alt="Vinilo Chromakopia">
+                <h3 class="products__itemTitle">Chromakopia - Tyler, The Creator</h3>
+                <p class="products__price">$120.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+            
+            <article class="products__item">
+                <img class="products__image" src="img/atpVinilo.png" alt="Vinilo ATP">
+                <h3 class="products__itemTitle">ATP - Nsqk</h3>
+                <p class="products__price">$60.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/delusionBratty.png" alt="Vinilo Delusion">
+                <h3 class="products__itemTitle">Délusion - Bratty</h3>
+                <p class="products__price">$50 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+            
+            <article class="products__item">
+                <img class="products__image" src="img/madrilenoVinilo.png" alt="Vinilo El Madrileño">
+                <h3 class="products__itemTitle">El Madrileño - C. Tangana</h3>
+                <p class="products__price">$90.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/torchesVinilo.png" alt="Vinilo Torches">
+                <h3 class="products__itemTitle">Torches X - Foster The People</h3>
+                <p class="products__price">$150.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/lshVinilo.png" alt="Vinilo let's start here">
+                <h3 class="products__itemTitle">Let's start here - Lil Yatchy</h3>
+                <p class="products__price">$150.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/submarineVinilo.png" alt="Vinilo submarine">
+                <h3 class="products__itemTitle">submarine - The Marías</h3>
+                <p class="products__price">$180.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/damnVinil.png" alt="Vinilo damn">
+                <h3 class="products__itemTitle">DAMN - Kendrick Lamar</h3>
+                <p class="products__price">$190.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/bpVinilo.png" alt="Vinilo Black Parade">
+                <h3 class="products__itemTitle">The Black Parade - MCR</h3>
+                <p class="products__price">$210.00 USD</p>
+                <div class="addCartBtn"><button class="cartButton"><img src="img/add-cart.png" alt=""></button></div>
+            </article>
+
+        </section>
+
+        <section class="cart">
+            <h2 class="cart__title">Carrito</h2>
+            <div class="cart__item">
+                <img class="cart__image" src="img/atpVinilo.png" alt="Vinilo ATP">
+                <p>ATP - Nsqk</p>
+                <p>$180 USD</p>
+                <i class="remove"><img src="img/deleteTrashCanIcon.png" alt="Icono Quitar" class="deleteIcon"></i>
+            </div>
+            <div class="cart__item">
+                <img class="cart__image" src="img/submarineVinilo.png" alt="Vinilo Submarine">
+                <p>submarine - The Marías</p>
+                <p>$60 USD</p>
+                <i class="remove"><img src="img/deleteTrashCanIcon.png" alt="Icono Quitar" class="deleteIcon"></i>
+            </div>
+            <div class="cart__item">
+                <img class="cart__image" src="img/delusionBratty.png" alt="Vinilo Bratty">
+                <p>bratty - Délusion</p>
+                <p>$50 USD</p>
+                <i class="remove"><img src="img/deleteTrashCanIcon.png" alt="Icono Quitar" class="deleteIcon"></i>
+            </div>
+            <div class="cart__buyButton">
+                <button class="buttonBody">COMPRAR</button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
+
+
